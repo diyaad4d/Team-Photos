@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Photos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #e6f2ff;
+        }
+        .all-item{
+            display: flex;
+            flex-direction: row;
+           
+             height: 500px;
+             justify-content: center;
+             align-items: center;
+            
+        }
+        .item{
+            flex: 1;
+            height: 100%;
+        }
+        .item:nth-child(1){
+            background-image: url(./image/3ca8fd1755e8349df5dffe1cb375d211.jpg);
+        }
+        .item:nth-child(2){
+            background-image: url(./image/WhatsApp\ Image\ 2024-03-04\ at\ 13.41.07_0b6172a2.jpg);
+        }
+        .item:nth-child(3){
+            background-image: url(./image/WhatsApp\ Image\ 2024-03-04\ at\ 13.41.06_1e3cec10.jpg);
+        }
+        .item:nth-child(4){
+            background-image: url(./image/WhatsApp\ Image\ 2024-03-04\ at\ 13.41.07_28a57a71.jpg);
+        }
+        .item:nth-child(5){
+            background-image: url(./image/ce6d8d20699f8402910d4daae0379a07.jpg);
+        }
+        .item{
+            background-position: center;
+            background-size: cover;
+            transition: flex 0.8 ease;
+        }
+        .item:hover{
+            flex: 5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <h1 class="text-center">Name Team</h1>
+        <div class="all-item">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
